@@ -1,0 +1,9 @@
+[Unit]
+Description=FD628 service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/fd628 &
+
+[Install]
+WantedBy=basic.target
